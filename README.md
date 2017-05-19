@@ -1,48 +1,26 @@
-# Kaminari [![Build Status](https://travis-ci.org/kaminari/kaminari.svg)](http://travis-ci.org/kaminari/kaminari) [![Code Climate](https://codeclimate.com/github/amatsuda/kaminari/badges/gpa.svg)](https://codeclimate.com/github/amatsuda/kaminari) [![Inch CI](http://inch-ci.org/github/amatsuda/kaminari.svg)](http://inch-ci.org/github/amatsuda/kaminari)
-
-A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for modern web app frameworks and ORMs
-
+# Scrolling Pagination
+Scrolling Pagination Class is a class written in PHP 5.x used to create a pagination of results from different sources (such as MySQL query results). 
 ## Features
+   ### support for multiple languages,
+   ### easy to modify text label on the button pages,
+   ### display rows range on the button pages (tooltip),
+   ### ability to scroll through pages,
+   ### very easy to configure,
+   ### 7 style examples (CSS3) with gradients, rounded corners etc.
+
+## Pagination class functions
+
+
+
 
 ### Clean
-Does not globally pollute `Array`, `Hash`, `Object` or `AR::Base`.
-
 ### Easy to Use
-Just bundle the gem, then your models are ready to be paginated.
-No configuration required.
-Don't have to define anything in your models or helpers.
-
-### Simple Scope-based API
-Everything is method chainable with less "Hasheritis". You know, that's the modern Rails way.
-No special collection class or anything for the paginated values, instead using a general `AR::Relation` instance.
-So, of course you can chain any other conditions before or after the paginator scope.
-
-### Customizable Engine-based I18n-aware Helpers
-As the whole pagination helper is basically just a collection of links and non-links, Kaminari renders each of them through its own partial template inside the Engine.
-So, you can easily modify their behaviour, style or whatever by overriding partial templates.
-
-### ORM & Template Engine Agnostic
-Kaminari supports multiple ORMs (ActiveRecord, DataMapper, Mongoid, MongoMapper) multiple web frameworks (Rails, Sinatra, Grape), and multiple template engines (ERB, Haml, Slim).
 
 ### Modern
 The pagination helper outputs the HTML5 `<nav>` tag by default. Plus, the helper supports Rails unobtrusive Ajax.
 
 
 ## Supported Versions
-
-* Ruby 2.0.0, 2.1.x, 2.2.x, 2.3.x, 2.4.x, 2.5
-
-* Rails 4.1, 4.2, 5.0, 5.1, 5.2
-
-* Sinatra 1.4
-
-* Haml 3+
-
-* Mongoid 3+
-
-* MongoMapper 0.9+
-
-* DataMapper 1.1.0+
 
 
 ## Installation
