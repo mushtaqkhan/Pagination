@@ -1,0 +1,48 @@
+	/* Orange */
+
+	.paginationOrange
+	{
+		float:left;
+		height:100%;
+		padding:10px;
+		overflow:hidden;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		background-color:#FFBC52;
+		background-image:-moz-linear-gradient(top,#FFBC52,#FEAA23);
+		background-image:-webkit-gradient(linear,left top,left bottom,from(#FFBC52),to(#FEAA23));
+		box-shadow:0px 2px 0px #E97307;
+		-webkit-box-shadow:0px 2px 0px #E97307;
+		-moz-box-shadow:0px 2px 0px #E97307;
+	}
+
+	.paginationOrange .paginationBody
+	{
+		background-color:transparent;
+	}
+
+	.paginationOrange .pagination a
+	{
+		color:white;
+		border-radius:2px;
+		background-image:none;
+		-moz-border-radius:2px;		
+		background-color:#E97307;
+		border:solid 1px #E97307;
+		-webkit-border-radius:2px;
+	}
+
+	.paginationOrange .pagination a:hover,
+	.paginationOrange .pagination a.paginationSelectedPage:link,
+	.paginationOrange .pagination a.paginationSelectedPage:active,
+	.paginationOrange .pagination a.paginationSelectedPage:visited
+	{
+		border-color:#B85C06;
+		background-color:#B85C06;
+	}
+	
+	.paginationOrange input.paginationPageNumber
+	{
+		border:solid 1px #B85C06;
+	}	

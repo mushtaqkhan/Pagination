@@ -1,0 +1,48 @@
+	/* Red */
+
+	.paginationRed
+	{
+		float:left;
+		height:100%;
+		padding:10px;
+		overflow:hidden;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		background-color:#D5190D;
+		background-image:-moz-linear-gradient(top,#ED1C0D,#D5190D);
+		background-image:-webkit-gradient(linear,left top,left bottom,from(#ED1C0D),to(#D5190D));
+		box-shadow:0px 2px 0px #A70C09;
+		-webkit-box-shadow:0px 2px 0px #A70C09;
+		-moz-box-shadow:0px 2px 0px #A70C09;
+	}
+
+	.paginationRed .paginationBody
+	{
+		background-color:transparent;
+	}
+
+	.paginationRed .pagination a
+	{
+		color:white;
+		border-radius:2px;
+		background-image:none;
+		-moz-border-radius:2px;		
+		background-color:#A70C09;
+		border:solid 1px #A70C09;
+		-webkit-border-radius:2px;
+	}
+		
+	.paginationRed .pagination a:hover,
+	.paginationRed .pagination a.paginationSelectedPage:link,
+	.paginationRed .pagination a.paginationSelectedPage:active,
+	.paginationRed .pagination a.paginationSelectedPage:visited
+	{
+		border-color:#8B0000;
+		background-color:#8B0000;
+	}
+	
+	.paginationRed input.paginationPageNumber
+	{
+		border:solid 1px #8B0000;
+	}	

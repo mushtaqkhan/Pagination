@@ -1,0 +1,76 @@
+
+	.pagination
+	{
+		clear:both;
+		width:auto;
+		overflow:hidden;
+		line-height:100%;
+		white-space:nowrap;
+		font:normal 11px Tahoma;
+	}
+	
+	.paginationBody
+	{
+		float:left;
+		width:224px;
+		overflow:hidden;
+		text-align:center;
+		display:inline-block;
+		background-color:white;
+	}
+	
+	.paginationLeftControl,
+	.paginationRightControl 
+	{
+		float:left;
+	}
+	
+	.pagination a:link,
+	.pagination a:active,
+	.pagination a:visited
+	{
+		color:#666666;
+		margin-right:2px;
+		text-decoration:none;
+		display:inline-block;
+		padding:6px 8px 6px 8px;
+		border:solid 1px #D0D0D0;
+		background-color:#ffffff;
+	}
+	
+	.pagination a:hover,
+	.pagination a.paginationSelectedPage:link,
+	.pagination a.paginationSelectedPage:active,
+	.pagination a.paginationSelectedPage:visited
+	{
+		color:white;
+		text-decoration:none;
+		border:solid 1px #357AB8;
+		background-color:#357AB8;
+	}
+	
+	a.paginationFirstPage:active,a.paginationFirstPage:link,a.paginationFirstPage:visited,
+	a.paginationPreviousPage:active,a.paginationPreviousPage:link,a.paginationPreviousPage:visited,
+	a.paginationNextPage:active,a.paginationNextPage:link,a.paginationNextPage:visited,
+	a.paginationLastPage:active,a.paginationLastPage:link,a.paginationLastPage:visited 
+	{
+		width:auto;
+		height:auto;
+	}
+	 
+	input.paginationPageNumber
+	{
+		width:20px;
+		float:left;
+		color:#a1a5a9;
+		margin-right:2px;
+		font:normal 11px Tahoma;
+		background-color:white;
+		border:solid 1px #D0D0D0;
+		padding:6px 10px 6px 3px;
+		background-repeat:no-repeat;
+		background-position:25px center;
+		background-image:url('../graphics/arrowRightField.png');
+	}
+	
+	

@@ -1,0 +1,48 @@
+	/* Sliver */
+
+	.paginationSilver
+	{
+		float:left;
+		height:100%;
+		padding:10px;
+		overflow:hidden;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		background-color:#616569;
+		background-image:-moz-linear-gradient(top,#616569,#515659);
+		background-image:-webkit-gradient(linear,left top,left bottom,from(#616569),to(#515659));
+		box-shadow:0px 2px 0px #31373D;
+		-webkit-box-shadow:0px 2px 0px #31373D;
+		-moz-box-shadow:0px 2px 0px #31373D;
+	}
+
+	.paginationSilver .paginationBody
+	{
+		background-color:transparent;
+	}
+
+	.paginationSilver .pagination a
+	{
+		color:white;
+		border-radius:2px;
+		background-image:none;
+		-moz-border-radius:2px;		
+		background-color:#31373D;
+		border:solid 1px #31373D;
+		-webkit-border-radius:2px;
+	}
+	
+	.paginationSilver .pagination a:hover,
+	.paginationSilver .pagination a.paginationSelectedPage:link,
+	.paginationSilver .pagination a.paginationSelectedPage:active,
+	.paginationSilver .pagination a.paginationSelectedPage:visited
+	{
+		border-color:#111519;
+		background-color:#111519;
+	}
+	
+	.paginationSilver input.paginationPageNumber
+	{
+		border:solid 1px #111519;
+	}	

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<language>
+	
+		<phrase id="titleFirstPage"><![CDATA[ First page [rows: %rowsRange%] ]]></phrase>
+		<phrase id="titlePreviousPage"><![CDATA[ Previous page ]]></phrase>
+		<phrase id="titlePageNo"><![CDATA[ Go to page number: %pageNo% [rows: %rowsRange%] ]]></phrase>
+		<phrase id="titleNextPage"><![CDATA[ Next page ]]></phrase>
+		<phrase id="titleLastPage"><![CDATA[ Last page: %pageNo% [rows: %rowsRange%] ]]></phrase>
+
+		<phrase id="labelFirstPage"><![CDATA[ First ]]></phrase>
+		<phrase id="labelPreviousPage"><![CDATA[ Previous ]]></phrase>
+		<phrase id="labelNextPage"><![CDATA[ Next ]]></phrase>
+		<phrase id="labelLastPage"><![CDATA[ Last ]]></phrase>
+		
+		<phrase id="titlePageNumberField"><![CDATA[ Enter page number and click anywhere ]]></phrase>
+		
+	</language>
+	

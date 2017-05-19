@@ -1,0 +1,48 @@
+	/* Blue */
+
+	.paginationBlue
+	{
+		float:left;
+		height:100%;
+		padding:10px;
+		overflow:hidden;
+		border-radius:5px;
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		background-color:#4696D4;
+		background-image:-moz-linear-gradient(top,#4696D4,#3377B5);
+		background-image:-webkit-gradient(linear,left top,left bottom,from(#4696D4),to(#3377B5));
+		box-shadow:0px 2px 0px #2251A1;
+		-webkit-box-shadow:0px 2px 0px #2251A1;
+		-moz-box-shadow:0px 2px 0px #2251A1;
+	}
+
+	.paginationBlue .paginationBody
+	{
+		background-color:transparent;
+	}
+
+	.paginationBlue .pagination a
+	{
+		color:white;
+		border-radius:2px;
+		background-image:none;
+		-moz-border-radius:2px;		
+		background-color:#2251A1;
+		border:solid 1px #2251A1;
+		-webkit-border-radius:2px;
+	}
+
+	.paginationBlue .pagination a:hover,
+	.paginationBlue .pagination a.paginationSelectedPage:link,
+	.paginationBlue .pagination a.paginationSelectedPage:active,
+	.paginationBlue .pagination a.paginationSelectedPage:visited
+	{
+		border-color:#18376D;
+		background-color:#18376D;
+	}
+	
+	.paginationBlue input.paginationPageNumber
+	{
+		border:solid 1px #18376D;
+	}	
