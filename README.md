@@ -1,15 +1,24 @@
 # Scrolling Pagination
 Scrolling Pagination Class is a class written in PHP 5.x used to create a pagination of results from different sources (such as MySQL query results). 
 ## Features
-   ### support for multiple languages,
-   ### easy to modify text label on the button pages,
-   ### display rows range on the button pages (tooltip),
-   ### ability to scroll through pages,
-   ### very easy to configure,
-   ### 7 style examples (CSS3) with gradients, rounded corners etc.
+    support for multiple languages,
+    easy to modify text label on the button pages,
+    display rows range on the button pages (tooltip),
+    ability to scroll through pages,
+    very easy to configure,
+    7 style examples (CSS3) with gradients, rounded corners etc.
 
 ## Pagination class functions
-
+      default_per_page      # 25 by default
+    max_per_page          # nil by default
+    max_pages             # nil by default
+    window                # 4 by default
+    outer_window          # 0 by default
+    left                  # 0 by default
+    right                 # 0 by default
+    page_method_name      # :page by default
+    param_name            # :page by default
+    params_on_first_page  # false by default
 
 
 
@@ -103,16 +112,7 @@ Note that the `padding` scope also is not directly defined on the models.
 
 You can configure the following default values by overriding these values using `Kaminari.configure` method.
 
-    default_per_page      # 25 by default
-    max_per_page          # nil by default
-    max_pages             # nil by default
-    window                # 4 by default
-    outer_window          # 0 by default
-    left                  # 0 by default
-    right                 # 0 by default
-    page_method_name      # :page by default
-    param_name            # :page by default
-    params_on_first_page  # false by default
+    
 
 There's a handy generator that generates the default configuration file into config/initializers directory.
 Run the following generator command, then edit the generated file.
