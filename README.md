@@ -1,5 +1,4 @@
-
-			<b>Scrolling Pagination Class</b>
+#Scrolling Pagination Class
 <b>Scrolling Pagination Class</b> is a class written in PHP 5.x used to create a pagination of results from different sources (such as MySQL query results). 
 		The key features:
 							
@@ -270,14 +269,4 @@
 						<a href="#menu3" class="menu">Multilanguage support</a>
 						<a href="#menu4" class="menu">CSS files and examples</a>
 						
-					</div>
 				
-				</div>
-			
-				<div class="footer"></div>
-		
-			</div>
-		
-		</body>
-		
-	</html>
