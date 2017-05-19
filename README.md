@@ -9,24 +9,37 @@ Scrolling Pagination Class is a class written in PHP 5.x used to create a pagina
     7 style examples (CSS3) with gradients, rounded corners etc.
 
 ## Pagination class functions
-      default_per_page      # 25 by default
-    max_per_page          # nil by default
-    max_pages             # nil by default
-    window                # 4 by default
-    outer_window          # 0 by default
-    left                  # 0 by default
-    right                 # 0 by default
-    page_method_name      # :page by default
-    param_name            # :page by default
-    params_on_first_page  # false by default
+    $currentPage 	- 	current page number
+    $totalResults 	- 	number of total results
+    $resultsPerPage 	25 	number of results per page
+    $language 	'en' 	selected language (eg. 'en')
+    $pathToLanguageFile 	'../language/' 	path to the language settings
+   
+### Public function setParameters:
+    public function setParameters($parameters)
+where $parameters is associative array which contains keys as follow:
+ 
+        Key name 	            Default value 	        Description
+        id 	pagination_1 	    unique                  identifier pagination
+        scroll 	                true 	                determine if the pages will be scrolled
+        numberOfPagesLeftSide 	    3 	                number of pages on the left side of the current page
+        numberOfPagesRightSide 	    3 	                number of pages on the right side of the current page
+        displayGoToPage 	    false 	                determines whether to display the field "go to page"
+        displayFirstPage 	    true 	                determines whether to display the page "go to first page"
+        displayPreviousPage 	true 	                determines whether to display the page "go to previous page"
+        displayNextPage 	    true 	                determines whether to display the page "go to next page"
+        displayLastPage 	    true 	                determines whether to display the page "go to first page"
+        displayIfOnePage 	    false 	                determines whether to display a single page
+        link 	                null 	                link to page
+        pageName 	            page 	                variable name that stores the page number
+        ajax 	                false 	                determines whether to use ajax
+        useControlLabel 	    true 	                determines if text labels for a control pages must be used (eg. "Next page")
 
-
-
-### Clean
-### Easy to Use
-
-### Modern
-The pagination helper outputs the HTML5 `<nav>` tag by default. Plus, the helper supports Rails unobtrusive Ajax.
+### Public function create:
+    public function create($display=true)
+    
+    Parameter 	Description
+    $display 	determines whether the results have to be returned or displayed
 
 
 ## Supported Versions
