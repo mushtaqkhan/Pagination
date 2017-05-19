@@ -1,31 +1,7 @@
-	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-	<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-		
-		<head>
-			<title>Scrolling Pagination Class - Documentation</title>
-			<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-			<link type="text/css" rel="stylesheet" href="../../template/style/style.css" />
-			<link type="text/css" rel="stylesheet" href="../style/pagination.css" />
-			<script type="text/javascript" src="../script/jquery.js"></script>
-			<script type="text/javascript" src="../script/Pagination.js"></script>
-		</head> 
-		
-		<body>
-		
-			<div class="mainSection">
-			
-				
-				
-				<div class="center floatContent">
-				
-					<div class="content">
-					
-						<div class="projectTitle">Scrolling Pagination Class</div>
-					
-						<div class="contentHeader"><a name="menu1"></a>About</div>
-						<b>Scrolling Pagination Class</b> is a class written in PHP 5.x used to create a pagination of results from different sources (such as MySQL query results). 
-						The key features:
+			<b>Scrolling Pagination Class</b>
+<b>Scrolling Pagination Class</b> is a class written in PHP 5.x used to create a pagination of results from different sources (such as MySQL query results). 
+		The key features:
 							
 						<ul>
 							<li>support for multiple languages,</li>
